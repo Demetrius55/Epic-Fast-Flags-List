@@ -1,8 +1,7 @@
 # <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List 
-##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)0.3 [1/7/2024]
-* **106 Currently Listed**
-* removed qol
-
+* i have 400+ working fflags
+* list gatekept
+<!--
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
 * **Fast Flags >> Fast Flags Editor >> Import Json**
@@ -797,13 +796,9 @@ gatekept
 ### [Fake Roblox Player Internal Patcher](https://github.com/devstacking/Roblox-Player-Internal-Patcher/releases/download/Release/FakeInternal.exe) *[Download Link]*
 
 ####  You've reached the bottom of the list! 
-
+-->
 # List Information
 * Creation Date: 9:46 PM 08/25/2023 
-* Github Publish Date: 12/26/2023
-###### [<sup>OG</sup>](https://rentry.org/uffl/)
 
 ##### FastFlags 2024®<sup>eal</sup>
 ##### Not affiliated with [Bloxstrap](https://github.com/pizzzaboxer/Bloxstrap)
-
-###### lil note: physics are from rgc
