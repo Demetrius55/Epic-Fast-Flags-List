@@ -801,4 +801,3 @@ gatekept
 * Creation Date: 9:46 PM 08/25/2023 
 
 ##### FastFlags 2024®<sup>eal</sup>
-##### Not affiliated with [Bloxstrap](https://github.com/pizzzaboxer/Bloxstrap)
