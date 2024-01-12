@@ -1,7 +1,12 @@
-# <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List 
-* i have 400+ working fflags
-* list gatekept
+<h3 align="center"> ─────── ✧ ─────── </h3>
+
+<h4 align="center">FastFlags</h4>
+
 <!--
+# <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List 
+##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)0.3 [1/12/2024]
+* **107 Currently Listed**
+
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
 * **Fast Flags >> Fast Flags Editor >> Import Json**
@@ -18,6 +23,10 @@
 * **[Links](https://github.com/devstacking/Epic-Fast-Flags-List#links)**
 
 <img src="https://github.com/devstacking/Epic-Fast-Flags-List/assets/106433721/0d16e448-4097-44ef-9eef-c445155a4bcb" width="888"/>
+
+### 
+
+<h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
 # Rendering API
 ### Metal
@@ -58,6 +67,13 @@
 ```json
 {
 	"DFFlagDebugEnableStreamingSolverVisualization": "True"
+}
+```
+### Low Quallity Terrain Textures
+###### 4 for less wuality 16, 32, 64 for higher quality
+```json
+{
+	"FIntTerrainArraySliceSize": "8"
 }
 ```
 ### Alternate Graphics Quality Selector
@@ -795,9 +811,13 @@ gatekept
 ### [potato fflags](https://github.com/catb0x/Roblox-Potato-FFlags) *[Github Repo Link]*
 ### [Fake Roblox Player Internal Patcher](https://github.com/devstacking/Roblox-Player-Internal-Patcher/releases/download/Release/FakeInternal.exe) *[Download Link]*
 
-####  You've reached the bottom of the list! 
--->
+<h4 align="center">‧⁺̣˚̣̣*̣̩⋆̩·̩̩୨˚̣̣̣̣͙୧·̩̩⋆̩*̣̩˚̣̣⁺̣‧ You've reached the bottom of the list! ‧⁺̣˚̣̣*̣̩⋆̩·̩̩୨˚̣̣̣̣͙୧·̩̩⋆̩*̣̩˚̣̣⁺̣‧୨</h4>
+
 # List Information
 * Creation Date: 9:46 PM 08/25/2023 
+* Github Publish Date: 12/26/2023
+###### [<sup>OG</sup>](https://rentry.org/uffl/)
 
-##### FastFlags 2024®<sup>eal</sup>
+<h3 align="center">FastFlags 2024®<sup>eal</sup></h3>
+
+###### lil note: physics are from rgc
