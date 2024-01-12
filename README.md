@@ -4,8 +4,9 @@
 
 <!--
 # <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List 
-##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)0.3 [1/12/2024]
+##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)1.0 [1/13/2024]
 * **107 Currently Listed**
+* Added some >w< decorations
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
@@ -14,13 +15,13 @@
 * **Then you should be good to go and save!**
 
  # List Navigation
-* **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List#rendering)**
-* **[Graphical](https://github.com/devstacking/Epic-Fast-Flags-List#graphical-settings)**
-* **[UI](https://github.com/devstacking/Epic-Fast-Flags-List#user-interface)**
-* **[Textures](https://github.com/devstacking/Epic-Fast-Flags-List#textures)**
-* **[Physics](https://github.com/devstacking/Epic-Fast-Flags-List#physics)**
-* **[Other FFlags](https://github.com/devstacking/Epic-Fast-Flags-List#other-fflags)**
-* **[Links](https://github.com/devstacking/Epic-Fast-Flags-List#links)**
+* **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
+* **[Graphical](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#graphical-settings)**
+* **[UI](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#user-interface)**
+* **[Textures](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#textures)**
+* **[Physics](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#physics)**
+* **[Other FFlags](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#other-fflags)**
+* **[Links](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#links)**
 
 <img src="https://github.com/devstacking/Epic-Fast-Flags-List/assets/106433721/0d16e448-4097-44ef-9eef-c445155a4bcb" width="888"/>
 
@@ -176,7 +177,7 @@ High
 }
 ```
 ### Makes avatars shiny 
-###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List/#heres-1-10--1-21) ]***
+###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#heres-1-10--1-21) ]***
 ```json
 {
 	"DFIntRenderClampRoughnessMax": "-640000000",
@@ -229,7 +230,7 @@ High
 }
 ```
 ### Enable GPULightCulling
-###### Combine with [Lighting Attenuation](https://github.com/devstacking/Epic-Fast-Flags-List#lighting-attenuation) for better vision
+###### Combine with [Lighting Attenuation](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#lighting-attenuation) for better vision
 ```json
 {
 	"FFlagFastGPULightCulling3": "True"
@@ -331,10 +332,15 @@ High
     "FFlagCoreGuiTypeSelfViewPresent": "False"
 }
 ```
-### Remove VC Bubble
+### Remove VC Beta Badge
 ```json
 {
-    "FFlagVoiceBetaBadge": "False"
+    "FFlagVoiceBetaBadge": "False",
+    "FFlagTopBarUseNewBadge": "False",
+    "FFlagEnableBetaBadgeLearnMore": "False",
+    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
+    "FFlagControlBetaBadgeWithGuac": "False",
+    "FStringVoiceBetaBadgeLearnMoreLink": "null",
 }
 ```
 ### Pin Chat on Chrome UI
