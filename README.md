@@ -19,9 +19,10 @@
 Sources: https://fflag.eryn.io/about (evaera); https://developer.valvesoftware.com/wiki/Modification (Valve)</h5>
 
 <!--
-# <img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List 
-##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)1.0 [1/13/2024]
-* **107 Currently Listed**
+<h1 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List</h1>
+
+##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)1.1 [1/16/2024]
+* **112 Currently Listed**
 * Added some >w< decorations
 
  # How to use
@@ -45,7 +46,8 @@ Sources: https://fflag.eryn.io/about (evaera); https://developer.valvesoftware.c
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
-# Rendering API
+<h1 align="center">Rendering API</h1>
+
 ### Metal
 ###### MacOS Only
 ```json
@@ -79,11 +81,13 @@ Sources: https://fflag.eryn.io/about (evaera); https://developer.valvesoftware.c
 	"FFlagDebugGraphicsPreferD3D11": "True"
 }
 ```
-# Graphical Settings <sup>& other stuff</sup>
-### idk
+
+<h1 align="center">Graphical Settings <sup>& other stuff</sup></h1>
+
+### Graphics Quality Level
 ```json
 {
-	"DFFlagDebugEnableStreamingSolverVisualization": "True"
+	"FIntRomarkStartWithGraphicQualityLevel": "1"
 }
 ```
 ### Low Quallity Terrain Textures
@@ -146,11 +150,13 @@ Sources: https://fflag.eryn.io/about (evaera); https://developer.valvesoftware.c
 	"DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
-##### Heres 1-10 > 1-21
+
+<h4 align="center">FRM Levels</h4>
+
 ```
 Low
 
-1 = 1
+1 = 3
 2 = 2
 3 = 6
 
@@ -165,7 +171,7 @@ High
 10 = 21
 ```
 ### Low Render Distance
-###### *[21 Limit]*
+###### [FRM])(https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#heres-1-10--1-21)
 ```json
 {
 	"DFIntDebugRestrictGCDistance": "1"
@@ -193,7 +199,7 @@ High
 }
 ```
 ### Makes avatars shiny 
-###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#heres-1-10--1-21) ]***
+###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels) ]***
 ```json
 {
 	"DFIntRenderClampRoughnessMax": "-640000000",
@@ -290,7 +296,9 @@ High
 	"FIntRenderShadowmapBias": "75"
 }
 ```
-# User Interface
+
+<h1 align="center">User Interface</h1>
+
 ### Cleaner ESC Menu
 ###### [Link to Original Post](https://discord.com/channels/1099468797410283540/1189607691849564230)
 ```json
@@ -310,12 +318,6 @@ High
 ```json
 {
 	"FFlagDebugDontRenderUI": "True"
-}
-```
-### V3 Menu
-```json
-{
-	"FFlagEnableV3MenuABTest3": "True"
 }
 ```
 ### Enable Audio Controller
@@ -404,7 +406,9 @@ High
 	"FFlagInGameMenuHomeButton": "False"
 }
 ```
-# Textures
+
+<h1 align="center">Textures</h1>
+
 ### No Textures
 ```json
 {
@@ -440,7 +444,15 @@ High
 	"FStringPartTexturePackTablePre2022": "{\"foil\":{\"ids\":[\"rbxassetid://9873266399\",\"rbxassetid://9438410239\"],\"color\":[238,238,238,255]},\"asphalt\":{\"ids\":[\"rbxassetid://9867974823\",\"rbxassetid://9844502433\"],\"color\":[227,227,228,234]},\"basalt\":{\"ids\":[\"rbxassetid://11545552824\",\"rbxassetid://11545440462\"],\"color\":[160,160,158,238]},\"brick\":{\"ids\":[\"rbxassetid://9924770651\",\"rbxassetid://9924770538\"],\"color\":[229,214,205,227]},\"cobblestone\":{\"ids\":[\"rbxassetid://9919719550\",\"rbxassetid://9438453972\"],\"color\":[218,219,219,243]},\"concrete\":{\"ids\":[\"rbxassetid://9924775913\",\"rbxassetid://9924775826\"],\"color\":[225,225,224,255]},\"crackedlava\":{\"ids\":[\"rbxassetid://9920485426\",\"rbxassetid://9438453972\"],\"color\":[76,79,81,156]},\"diamondplate\":{\"ids\":[\"rbxassetid://10237721036\",\"rbxassetid://9438453972\"],\"color\":[210,210,210,255]},\"fabric\":{\"ids\":[\"rbxassetid://9920517963\",\"rbxassetid://9438453972\"],\"color\":[221,221,221,255]},\"glacier\":{\"ids\":[\"rbxassetid://9920518995\",\"rbxassetid://9438453972\"],\"color\":[225,229,229,243]},\"glass\":{\"ids\":[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],\"color\":[254,254,254,7]},\"granite\":{\"ids\":[\"rbxassetid://9920550720\",\"rbxassetid://9438453972\"],\"color\":[210,206,200,255]},\"grass\":{\"ids\":[\"rbxassetid://11152995545\",\"rbxassetid://9267183930\"],\"color\":[196,196,189,241]},\"ground\":{\"ids\":[\"rbxassetid://11546360009\",\"rbxassetid://11545533676\"],\"color\":[165,165,160,240]},\"ice\":{\"ids\":[\"rbxassetid://9920556429\",\"rbxassetid://9438453972\"],\"color\":[235,239,241,248]},\"leafygrass\":{\"ids\":[\"rbxassetid://11152995545\",\"rbxassetid://9267183930\"],\"color\":[182,178,175,234]},\"limestone\":{\"ids\":[\"rbxassetid://9920561624\",\"rbxassetid://9438453972\"],\"color\":[250,248,243,250]},\"marble\":{\"ids\":[\"rbxassetid://9873292869\",\"rbxassetid://9438453972\"],\"color\":[181,183,193,249]},\"metal\":{\"ids\":[\"rbxassetid://11546526557\",\"rbxassetid://11546431794\"],\"color\":[226,226,226,255]},\"mud\":{\"ids\":[\"rbxassetid://9920578676\",\"rbxassetid://9438453972\"],\"color\":[193,192,193,252]},\"pavement\":{\"ids\":[\"rbxassetid://11546539560\",\"rbxassetid://11546440685\"],\"color\":[218,218,219,236]},\"pebble\":{\"ids\":[\"rbxassetid://9920581197\",\"rbxassetid://9438453972\"],\"color\":[204,203,201,234]},\"plastic\":{\"ids\":[\"\",\"rbxassetid://9868015012\"],\"color\":[255,255,255,255]},\"rock\":{\"ids\":[\"rbxassetid://11546570730\",\"rbxassetid://11546456858\"],\"color\":[211,211,210,248]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://11545623165\",\"rbxassetid://11545476330\"],\"color\":[206,177,163,180]},\"salt\":{\"ids\":[\"rbxassetid://9920590478\",\"rbxassetid://9438453972\"],\"color\":[249,249,249,255]},\"sand\":{\"ids\":[\"rbxassetid://11546588111\",\"rbxassetid://11546468464\"],\"color\":[218,216,210,240]},\"sandstone\":{\"ids\":[\"rbxassetid://9920596353\",\"rbxassetid://9438453972\"],\"color\":[241,234,230,246]},\"slate\":{\"ids\":[\"rbxassetid://9867974823\",\"rbxassetid://9844502433\"],\"color\":[235,234,235,254]},\"snow\":{\"ids\":[\"rbxassetid://11536062048\",\"rbxassetid://11108916253\"],\"color\":[239,240,240,255]},\"wood\":{\"ids\":[\"rbxassetid://9867974813\",\"rbxassetid://9844454989\"],\"color\":[217,209,208,255]},\"woodplanks\":{\"ids\":[\"rbxassetid://9867974813\",\"rbxassetid://9844454989\"],\"color\":[207,208,206,254]}}"
 }
 ```
-# Physics
+
+<h1 align="center">Physics</h1>
+
+### Another Physics FPS
+```json
+{
+	"DFFlagDebugSimUseManualTimestepMultiplier": "True"
+}
+```
 ### Physics FPS 
 ```json
 {
@@ -462,6 +474,7 @@ High
 ```
 ### Max Raycast Distance
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3
+###### noclip cam on 3
 ```json
 {
 	"DFIntRaycastMaxDistance": "0"
@@ -613,7 +626,8 @@ gatekept
 	"DFFlagUnstickForceAttackInTenths": "-4"
 }
 ```
-# other fflags
+
+<h1 align="center">other fflags</h1>
 
 ### Disable ADs
 ```json
@@ -668,7 +682,6 @@ gatekept
 	"FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
 }
 ```
-
 ### MTU 
 ###### ***[Might Improve Ping]***
 ```JSON
@@ -818,13 +831,14 @@ gatekept
 }
 ```
 ### Limits number of animations being played
-###### infinite zoom out!!
 ```json
 {
 	"DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-# Links
+
+<h1 align="center">Links</h1>
+
 ### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
 ### [MEGA FAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
@@ -841,5 +855,3 @@ gatekept
 ###### [<sup>OG</sup>](https://rentry.org/uffl/)
 
 <h3 align="center">FastFlags 2024®<sup>eal</sup></h3>
-
-###### lil note: physics are from rgc
