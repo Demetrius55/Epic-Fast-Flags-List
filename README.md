@@ -1,10 +1,4 @@
-<h3 align="center"> ─────── ✧ ─────── </h3>
-
-<h4 align="center">FastFlags</h4>
-
-#
-
-<h3 align="center">꧖ꦿꦸ</h3>
+h3 align="center">꧖ꦿꦸ</h3>
 
 <h1 align="center">The Ethics of FastFlags Exploitation <sup>by Kuto, owner of EG Prison Life</sup></h3>
 
