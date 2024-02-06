@@ -5,14 +5,16 @@
 <h3 align="center">https://discord.gg/fastflags</h3>
 
 ##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)1.5 [2/1/2024]
-* **111 Currently Listed**
-* weird animations is in the server for now (its client sided)
+* **108 Currently Listed**
+* New Formatting
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
 * **Fast Flags >> Fast Flags Editor >> Import Json**
 * **Paste in the JSON**
 * **Then you should be good to go and save!**
+
+###### Please just use bloxstrap its way easier
 
  # List Navigation
 * **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
@@ -61,75 +63,54 @@
 ```
 ### Heads
 ```json
-{
-	"FFlagDebugLuaHeapDump ": "True"
-}
+{ "FFlagDebugLuaHeapDump": "True" }
 ```
 ### Graphics Quality Level
 ```json
-{
-	"FIntRomarkStartWithGraphicQualityLevel": "1"
-}
+{ "FIntRomarkStartWithGraphicQualityLevel": "1" }
 ```
 ### Low Quallity Terrain Textures
-###### 4 for less wuality 16, 32, 64 for higher quality
+###### 4 for less quality 16, 32, 64 for higher quality
 ```json
-{
-	"FIntTerrainArraySliceSize": "8"
-}
+{ "FIntTerrainArraySliceSize": "8" }
 ```
 ### Alternate Graphics Quality Selector
-###### 1-21
+###### 1-21 bloxstrap preset
 ```json
-{
-	"FFlagFixGraphicsQuality": "True"
-}
+{ "FFlagFixGraphicsQuality": "True" }
 ```
 ### Disable Shadows
 ```json
-{
-	"FIntRenderShadowIntensity": "0"
-}
+{ "FIntRenderShadowIntensity": "0" }
 ```
 ### Set Fps Limit
+{ "DFIntTaskSchedulerTargetFps": "9999" }
 ```json
-{
-	"DFIntTaskSchedulerTargetFps": "9999"
-}
+{ "DFIntTaskSchedulerTargetFps": "9999" }
 ```
 ### Enables Network Debug Tracker menu
 ##### Instructions: CTRL+F8
 ###### it's over.
 ```json
-{
-	"DFFlagDebugEnableInterpolationVisualizer": "True"
-}
+{ "DFFlagDebugEnableInterpolationVisualizer": "True" }
 ```
 ### Humanoid Outline
 ##### Draws an outline around every part and every humanoid
 ```json
-{
-	"DFFlagDebugDrawBroadPhaseAABBs": "True"
-}
+{ "DFFlagDebugDrawBroadPhaseAABBs": "True" }
 ```
 ### Buggy ZPlane Camera *<sup>a.k.a xray</sup>*
 ```json
-{
-	"FIntCameraFarZPlane": "0"
-}
+{ "DFFlagDebugDrawBroadPhaseAABBs": "0" }
 ```
 ### Preserve rendering quality with display setting
 ```json
-{
-	"DFFlagDisableDPIScale": "True"
-}
+{ "DFFlagDisableDPIScale": "True" }
 ```
 ### Low Graphics Quality w/ Max Render Distance
 ###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
 ```json
-{
-	"DFIntDebugFRMQualityLevelOverride": "1"
-}
+{ "DFIntDebugFRMQualityLevelOverride": "1" }
 ```
 
 <h4 align="center">FRM Levels</h4>
@@ -155,130 +136,79 @@ High
 ### Low Render Distance
 ###### [FRM](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels)
 ```json
-{
-	"DFIntDebugRestrictGCDistance": "1"
-}
+{ "DFIntDebugRestrictGCDistance": "1" }
 ```
 ### Disable Wind
 ```json
-{
-	"FFlagGlobalWindRendering": "False",
-	"FFlagGlobalWindActivated": "False"
-}
+{ "FFlagGlobalWindRendering": "False", "FFlagGlobalWindActivated": "False" }
 ```
 ### Limits light updates
 ```json
-{
-	"FIntRenderLocalLightUpdatesMax": "8",
-	"FIntRenderLocalLightUpdatesMin": "6"
-}
+{ "FIntRenderLocalLightUpdatesMax": "8", "FIntRenderLocalLightUpdatesMin": "6" }
 ```
 ### Disables fade in and fade out animation every light update
 ###### changes fade in ms!!
 ```json
-{
-	"FIntRenderLocalLightFadeInMs": "0"
-}
+{ "FIntRenderLocalLightFadeInMs": "0" }
 ```
 ### Makes avatars shiny 
 ###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels) ]***
 ```json
-{
-	"DFIntRenderClampRoughnessMax": "-640000000",
-	"DFIntDebugFRMQualityLevelOverride": "21"
-}
+{ "DFIntRenderClampRoughnessMax": "-640000000", "DFIntDebugFRMQualityLevelOverride": "21" }
 ```
 ### Disable PostFX
 ```json
-{
-	"FFlagDisablePostFx": "True"
-}
+{ "FFlagDisablePostFx": "True" }
 ```
 ### Pause Voxelizer/Disable Baked Shadows
 ```json
-{
-	"DFFlagDebugPauseVoxelizer": "True"
-}
-```
-### Reduce Textures
-```json
-{
-	"FFlagGraphicsGLTextureReduction": "True"
-}
+{ "DFFlagDebugPauseVoxelizer": "True" }
 ```
 ### Gray Sky
 ```json
-{
-	"FFlagDebugSkyGray": "True"
-}
+{ "FFlagDebugSkyGray": "True" }
 ```
 ### Disable Player Shadows
 ```json
-{
-	"FIntRenderShadowIntensity": "0"
-}
+{ "FIntRenderShadowIntensity": "0" }
 ```
 ### Force LOD on Meshes
 ```json
-{
-	"DFIntCSGLevelOfDetailSwitchingDistance": "0",
-	"DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
-	"DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
-	"DFIntCSGLevelOfDetailSwitchingDistanceL34": "0"
-}
+{ "DFIntCSGLevelOfDetailSwitchingDistance": "0", "FFlagGlobaDFIntCSGLevelOfDetailSwitchingDistanceL12lWindActivated": "0", "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0", "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0" }
 ```
 ### Lighting Attenuation
 ```json
-{
-	"FFlagNewLightAttenuation": "True"
-}
+{ "FFlagNewLightAttenuation": "True" }
 ```
 ### Enable GPULightCulling
 ###### Combine with [Lighting Attenuation](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#lighting-attenuation) for better vision
 ```json
-{
-	"FFlagFastGPULightCulling3": "True"
-}
+{ "FFlagFastGPULightCulling3": "True" }
 ```
 ### Frame Buffer
 ###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
 ```json
-{
-	"DFIntMaxFrameBufferSize": "4"
-}
+{ "DFIntMaxFrameBufferSize": "4" }
 ```
 ### High Quality Textures 
 ###### *[1-3]*
 ```json
-{
-	"DFFlagTextureQualityOverrideEnabled": "True",
-	"DFIntTextureQualityOverride": "3"
-}
+{ "DFFlagTextureQualityOverrideEnabled": "True", "DFIntTextureQualityOverride": "3", }
 ```
 ### Remove Grass
 ```json
-{
-	"FIntFRMMinGrassDistance": "0",
-	"FIntFRMMaxGrassDistance": "0",
-	"FIntRenderGrassDetailStrands": "0",
-	"FIntRenderGrassHeightScaler": "0"
-}
+{ "FIntFRMMinGrassDistance": "0", "FIntFRMMaxGrassDistance": "0", "FIntRenderGrassDetailStrands": "0", "FIntRenderGrassHeightScaler": "0" }
 ```
 ### Force MSAA 
-###### *[0, 1, 2, 4, 8, 16]*
+###### *[0, 1, 2, 4, 8]*
 ```json
-{
-	"FIntDebugForceMSAASamples": "4"
-}
+{ "FIntDebugForceMSAASamples": "4" }
 ```
 ### ShadowMap Bias 
 ###### ***[Future & ShadowMap]***
 ```json
-{
-	"FIntRenderShadowmapBias": "75"
-}
+{ "FIntRenderShadowmapBias": "75" }
 ```
-
 <h1 align="center">User Interface</h1>
 
 ### New Report Menu
@@ -288,131 +218,71 @@ High
 
 ### Custom MicroProfile Scale
 ```json
-{
-	"DFIntMicroProfilerDpiScaleOverride": "100"
-}
+{ "DFIntMicroProfilerDpiScaleOverride": "100" }
 ```
 
 ### V1 Menu
 ```json
-{
-	"FIntNewInGameMenuPercentRollout3": "10000"
-}
-```
-
-### Cleaner ESC Menu
-###### [Link to Original Post](https://discord.com/channels/1099468797410283540/1189607691849564230)
-```json
-{
-	"FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
-}
+{ "FIntNewInGameMenuPercentRollout3": "10000" }
 ```
 ### Hides gui
 ```json
-{
-	"FFlagDebugAdornsDisabled": "True"
-}
+{ "FFlagDebugAdornsDisabled": "True" }
 ```
 ### Dont Render UI
 ```json
-{
-	"FFlagDebugDontRenderUI": "True"
-}
+{ "FFlagDebugDontRenderUI": "True" }
 ```
 ### Enable Audio Controller
 ```json
-{
-	"FFlagTrackerLodControllerDebugUI": "True"
-}
+{ "FFlagTrackerLodControllerDebugUI": "True" }
 ```
 ### Disable Autocomplete
 ```json
-{
-	"FFlagEnableCommandAutocomplete": "False"
-}
+{ "FFlagEnableCommandAutocomplete": "False" }
 ```
 ### Chrome UI TopBar
 ```json
-{
-	"FFlagEnableInGameMenuChrome": "True"
-}
+{ "FFlagEnableInGameMenuChrome": "True" }
 ```
 ### Better Chrome UI TopBar
 ```json
-{
-	"FFlagChromeBetaFeature": "True",
-	"FFlagEnableChromePinnedChat": "True",
-	"FFlagEnableInGameMenuChrome": "True",
-	"FFlagEnableInGameMenuChromeABTest": "True",
-	"FFlagEnableInGameMenuChromeSignalAPI": "True",
-	"FFlagPlayerListChromePushdown": "True"
-}
+{ "FFlagChromeBetaFeature": "True", "FFlagEnableChromePinnedChat": "True", "FFlagEnableInGameMenuChrome": "True", "FFlagEnableInGameMenuChromeABTest": "True", "FFlagEnableInGameMenuChromeSignalAPI": "True", "FFlagPlayerListChromePushdown": "True", "FFlagEnableChromeEscapeFix": "True", "FFlagEnableChromeMicShimmer": "True", "FFlagPlayerListChromePushdown": "True" }
 ```
 ### Chrome UI Topbar Removal
 ```json
-{
-	"FFlagChromeBetaFeature": "False",
-	"FFlagEnableChromePinnedChat": "False",
-	"FFlagEnableInGameMenuChrome": "False",
-	"FFlagEnableInGameMenuChromeABTest": "False",
-	"FFlagEnableInGameMenuChromeSignalAPI": "False",
-	"FFlagPlayerListChromePushdown": "False",
-	"FStringEnableChromePinnedChatForcedUserIds": "1",
-	"FStringGameMenuChromeForcedUserIds": "1"
-}
+{ "FFlagChromeBetaFeature": "False", "FFlagEnableChromePinnedChat": "False", "FFlagEnableInGameMenuChrome": "False", "FFlagEnableInGameMenuChromeABTest": "False", "FFlagEnableInGameMenuChromeSignalAPI": "False", "FFlagPlayerListChromePushdown": "False" }
 ```
 ### Disable Bubble Chat
 ```json
-{
-    "FFlagEnableBubbleChatFromChatService": "False"
+{ "FFlagEnableBubbleChatFromChatService": "False" }
 }
 ```
 ### Disable Selfview
 ```json
-{
-    "FFlagCoreGuiTypeSelfViewPresent": "False"
-}
+{ "FFlagCoreGuiTypeSelfViewPresent": "False" }
 ```
 ### Remove VC Beta Badge
 ```json
-{
-    "FFlagVoiceBetaBadge": "False",
-    "FFlagTopBarUseNewBadge": "False",
-    "FFlagEnableBetaBadgeLearnMore": "False",
-    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
-    "FFlagControlBetaBadgeWithGuac": "False",
-    "FStringVoiceBetaBadgeLearnMoreLink": "null"
-}
+{ "FFlagVoiceBetaBadge": "False", "FFlagTopBarUseNewBadge": "False", "FFlagEnableBetaBadgeLearnMore": "False", "FFlagBetaBadgeLearnMoreLinkFormview": "False", "FFlagControlBetaBadgeWithGuac": "False", "FStringVoiceBetaBadgeLearnMoreLink": "null" }
 ```
 ### Pin Chat on Chrome UI
 ```json
-{
-    "FFlagEnableChromePinnedChat": "True"
+{ "FFlagEnableChromePinnedChat": "True" }
 }
 ```
 ### Hide guis
 ###### ***Instructions: Replace "ID" with any group ID that you are in.***
 ```json
-{
-	"DFIntCanHideGuiGroupId": "ID"
-}
-```
-### Accessibility Settings are enabled by default
-```json
-{
-}
+{ "DFIntCanHideGuiGroupId": "ID_HERE" }
 ```
 ### Disable Fullscreen Title Bar
 ```json
-{
-	"FFlagInGameMenuV1FullScreenTitleBar": "False"
-}
+{ "FIntFullscreenTitleBarTriggerDelayMillis": "3600000" }
 ```
 ### Set Custom Font Size
 ```json
-{
-	"FIntFontSizePadding": "1"
-}
+{ "FIntFontSizePadding": "1" }
 ```
 
 <h1 align="center">Textures</h1>
@@ -459,18 +329,13 @@ High
 ###### - = up, + = down
 ###### blame popbob he said it was ok to leak this
 ```json
-{
-	"DFIntSolidFloorPercentForceApplication": "-1000",
-	"DFIntNonSolidFloorPercentForceApplication": "-5000"
-}
+{ "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
 ```
 
 ### Breaks glitches stuff
 ###### All type of wallhops, longjumps, headhitters and probably more stop working
 ```json
-{
-	"DFFlagSimHumanoidPhysics": "True"
-}
+{ "DFFlagSimHumanoidPhysics": "True" }
 ```
 ### Max Raycast Distance
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3
