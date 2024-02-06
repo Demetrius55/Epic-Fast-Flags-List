@@ -4,9 +4,9 @@
 
 <h3 align="center">https://discord.gg/fastflags</h3>
 
-##### Version: 4[.](https://github.com/GoingCrazyDude/fastflags-collection/blob/main/README.md)1.5 [2/1/2024]
+##### Version: 5.0.0 [2/6/2024]
 * **108 Currently Listed**
-* New Formatting
+* **New Formatting**
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
@@ -331,7 +331,6 @@ High
 ```json
 { "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
 ```
-
 ### Breaks glitches stuff
 ###### All type of wallhops, longjumps, headhitters and probably more stop working
 ```json
@@ -341,219 +340,146 @@ High
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3
 ###### noclip cam on 3
 ```json
-{
-	"DFIntRaycastMaxDistance": "0"
-}
+{ "DFIntRaycastMaxDistance": "3" }
 ```
 ### Possible Super Jump
 ###### i thought this was patched thats why i removed it lol
 ```json
-{
-	"DFIntNewRunningBaseGravityReductionFactorHundredth": "50"
-}
+{ "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500" }
 ```
 ### Breaks movement on higher negative values
 ```json
-{
-	"FIntPGSAngularDampingPermilPersecond": "-10000"
-}
+{ "FIntPGSAngularDampingPermilPersecond": "-10000" }
+```
+### it does something to movement cant describe rn cus im busy
+```json
+{ "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
 ### It allows you to fall quicker and ignore certain block designs
 ```json
-{
-	"FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False",
-	"FFlagHumanoidParallelFasterSetCollision": "True"
-}
+{ "FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False", "FFlagHumanoidParallelFasterSetCollision": "True" }
 ```
 ### Gear Desync
 ###### a.k.a dos not let you load games
 ```json
-{
-	"DFIntDataSenderRate": "-1"
-}
+{ "DFIntDataSenderRate": "-1" }
 ```
 ### Freezes character in any state, can cause crashes, basically stacks input data
 ```json
-{
-	"FFlagSimIslandizerManager": "False"
-}
+{ "FFlagSimIslandizerManager": "False" }
 ```
 ### Fake Lag
 ```json
-{
-	"DFIntS2PhysicsSenderRate": "1"
-}
+{ "DFIntS2PhysicsSenderRate": "1" }
 ```
 ### ultiamt desync flag!! 😱😱😱
 ```json
-{
-	"DFIntS2PhysicsSenderRate": "1",
-	"FIntPGSAngularDampingPermilPersecond": "0"
-}
+{ "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
 ### Noclip 1
+###### adjust the value so u dont fall through the ground
 ```json
-{
-	"DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
-}
+{ "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
 ### Noclip 2
 ```json
 {
-	"FIntPGSPenetrationMarginMax": "2147483647",
-	"FIntPGSPenetrationMarginMin": "2147483647"
+{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647" }
 }
 ```
 ### Noclip Combo
+###### adjust the value so u dont fall through the ground
 ```json
-{
-	"DFFlagAssemblyExtentsExpansionStudHundredth": "-50",
-	"FIntPGSPenetrationMarginMax": "199999999",
-	"FIntPGSPenetrationMarginMin": "100000000"
-}
+{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
 ### Teleportation
 ###### a.k.a control the unanchored
 ```json
-{
-	"FIntPGSPenetrationMarginMax": "-100000000",
-	"FIntPGSPenetrationMarginMin": "-100000000"
-}
+{ "FIntPGSPenetrationMarginMax": "-100000000", "FIntPGSPenetrationMarginMin": "-100000000" }
 ```
 ### limited speed fflag that works only in a few games
 ###### one of them being Phantom Forces, and it makes you only slightly faster
 ```json
-{
-	"DFIntDebugSimPhysicsSteppingMethodOverride": "10000000"
-}
+{ "DFIntDebugSimPhysicsSteppingMethodOverride": "10000000" }
 ```
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```json
-{
-	"DFIntMaxAltitudePDStickHipHeightPercent": "-200"
-}
-```
-### Head Collisions R15
-```json
-{
-	"FFlagMeshPartHeadsDefaultIsEnabled": "False"
-}
+{ "DFIntMaxAltitudePDStickHipHeightPercent": "-200" }
 ```
 ### Noclip <sup>literally</sup>
 ```json
-{
-	"DFIntSHCellMinSizeAsBitShift": "4"
-}
+{ "DFIntSHCellMinSizeAsBitShift": "4" }
 ```
 ### Wallglide
 ```json
-{
-	"DFFlagUnstickForceAttackInTenths": "-4"
-}
+{ "DFFlagUnstickForceAttackInTenths": "-4" }
 ```
 
 <h1 align="center">other fflags</h1>
 
 ### Disable ADs
 ```json
-{
-	"FFlagAdServiceEnabled": "False"
-}
+{ "FFlagAdServiceEnabled": "False" }
 ```
 
 ### Disable Telemetry 
 ###### *[This doesn't fully disable telemetry]*
 ```json
-{
-	"FFlagDebugDisableTelemetryEphemeralCounter": "True",
-	"FFlagDebugDisableTelemetryEphemeralStat": "True",
-	"FFlagDebugDisableTelemetryEventIngest": "True",
-	"FFlagDebugDisableTelemetryPoint": "True",
-	"FFlagDebugDisableTelemetryV2Counter": "True",
-	"FFlagDebugDisableTelemetryV2Event": "True",
-	"FFlagDebugDisableTelemetryV2Stat": "True"
-}
+{ "FFlagDebugDisableTelemetryEphemeralCounter": "True", "FFlagDebugDisableTelemetryEphemeralStat": "True", "FFlagDebugDisableTelemetryEventIngest": "True", "FFlagDebugDisableTelemetryPoint": "True", "FFlagDebugDisableTelemetryV2Counter": "True", "FFlagDebugDisableTelemetryV2Event": "True", "FFlagDebugDisableTelemetryV2Stat": "True" }
 ```
 ### Scroll Speed
 ```json
-{
-	"FIntScrollWheelDeltaAmount": "140"
-}
+{ "FIntScrollWheelDeltaAmount": "140" }
 ```
 ### Surf the web inside of Roblox
 ###### Click the Beta badge or the 13+ badge to open the webview browser.
 ```json
-{
-	"FFlagTopBarUseNewBadge": "True",
-	"FStringTopBarBadgeLearnMoreLink": "https://google.com",
-	"FStringVoiceBetaBadgeLearnMoreLink": "https://google.com"
-}
+{ "FFlagTopBarUseNewBadge": "True", "FStringTopBarBadgeLearnMoreLink": "https://google.com/", "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/" }
 ```
 ### Sounds use physical velocity and become distorted
 ```json
-{
-	"FFlagSoundsUsePhysicalVelocity": "True"
-}
+{ "FFlagSoundsUsePhysicalVelocity": "True" }
 ```
 ### Shows the state of a flag
 ```json
-{
-	"FStringDebugShowFlagState": "Value"
-}
+{ "FStringDebugShowFlagState": "FLAG_HERE" }
 ```
 ###### e.g
 ```json
-{
-	"FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
-}
+{ "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName" }
 ```
 ### MTU 
 ###### ***[Might Improve Ping]***
-```JSON
-{
-	"DFIntConnectionMTUSize": "Value"
-}
+```json
+{ "DFIntConnectionMTUSize": "MTU_HERE" }
 ```
 ### No Internet Disconnect 
 ###### *[You will still be kicked but the message wont show.]*
 ```json
-{
-	"DFFlagDebugDisableTimeoutDisconnect": "True"
-}
+{ "DFFlagDebugDisableTimeoutDisconnect": "True" }
 ```
 ### Quick Game Launch 
 ###### *[BUGGY]*
 ```json
-{
-	"FFlagEnableQuickGameLaunch": "True"
-}
+{ "FFlagEnableQuickGameLaunch": "True" }
 ```
 ### Allows you to change voice chat distance 
 ###### default: [Min 7 Max 80]
 ```json
-{
-	"DFIntVoiceChatRollOffMinDistance": "7",
-	"DFIntVoiceChatRollOffMaxDistance": "80"
-}
+{ "DFIntVoiceChatRollOffMinDistance": "7", "DFIntVoiceChatRollOffMaxDistance": "80" }
 ```
 ### Disable In-Game Purchases
 ```json
-{
-	"DFFlagOrder66": "True"
-}
+{ "DFFlagOrder66": "True" }
 ```
 ### Disable Chat
 ```json
-{
-	"FFlagDebugForceChatDisabled": "True"
-}
+{ "FFlagDebugForceChatDisabled": "True" }
 ```
 ### Limit audios that are being played
 ```json
-{
-	"DFIntMaxLoadableAudioChannelCount": "1"
-}
+{ "DFIntMaxLoadableAudioChannelCount": "1" }
 ```
 ### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
 ```json
