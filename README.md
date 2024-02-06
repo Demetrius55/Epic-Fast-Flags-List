@@ -288,7 +288,7 @@ High
 
 <h1 align="center">Textures</h1>
 
-### WAIT PLEASE
+### Moved to [Textures Branch](https://github.com/devstacking/Epic-Fast-Flags-List/tree/textures)
 
 <h1 align="center">Physics</h1>
 
