@@ -2,10 +2,10 @@
 
 <h3 align="center">https://discord.gg/Q5JKyzuNRC</h3>
 
-<h3 align="center">https://discord.gg/fastflags</h3>
+<h6 align="center">https://discord.gg/fastflags</h6>
 
 ##### Version: 5.0.0 [2/6/2024]
-* **108 Currently Listed**
+* **107 Currently Listed**
 * **New Formatting**
 
  # How to use
@@ -14,7 +14,7 @@
 * **Paste in the JSON**
 * **Then you should be good to go and save!**
 
-###### Please just use bloxstrap its way easier
+###### Please just use [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) its way better
 
  # List Navigation
 * **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
@@ -213,7 +213,7 @@ High
 
 ### New Report Menu
 ```json
-{ "FStringReportAbuseMenuRoactForcedUserIds": "UserID" }
+{ "FStringReportAbuseMenuRoactForcedUserIds": "UserID_HERE" }
 ```
 
 ### Custom MicroProfile Scale
@@ -483,118 +483,75 @@ High
 ```
 ### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
 ```json
-{
-	"FFlagDebugHumanoidRendering": "True"
-}
+{ "FFlagDebugHumanoidRendering": "True" }
 ```
 ### Custom Disconnect Message
 ```json
-{
-	"FFlagReconnectDisabled": "True",
-	"FStringReconnectDisabledReason": "You're stupid and I hate you"
-}
+{ "FFlagReconnectDisabled": "True", "FStringReconnectDisabledReason": "You're stupid and I hate you" }
 ```
 ### Display FPS
 ```json
-{
-	"FFlagDebugDisplayFPS": "True"
-}
+{ "FFlagDebugDisplayFPS": "True" }
 ```
 ### Verified Badge
 ```json
-{
-	"FStringWhitelistVerifiedUserId": "UserID"
-}
+{ "FStringWhitelistVerifiedUserId": "UserID_HERE" }
 ```
 ### Verified Badge on everyone
 ```json
-{
-	"FFlagOverridePlayerVerifiedBadge": "True"
-}
+{ "FFlagOverridePlayerVerifiedBadge": "True" }
 ```
-### Applies cool colors to Unthemed Stuff
+### Applies cool colors to stuff
 ```json
-{
-	"FFlagDebugDisplayUnthemedInstances": "True"
-}
+{ "FFlagDebugDisplayUnthemedInstances": "True" }
 ```
 ### Show Outlined Chunks
 ```json
-{
-	"FFlagDebugLightGridShowChunks": "True"
-}
+{ "FFlagDebugLightGridShowChunks": "True" }
 ```
 ### Remove Disconnect Blur/Loading Blur
 ```json
-{
-	"FIntRobloxGuiBlurIntensity": "0"
-}
+{ "FIntRobloxGuiBlurIntensity": "0" }
 ```
 ### Disable Dynamic Heads Animations
 ```json
-{
-	"DFFlagEnableDynamicHeadByDefault": "False"
-}
+{ "DFFlagEnableDynamicHeadByDefault": "False" }
 ```
 ### failsafehumanoid
 ```json
-{
-	"FFlagFailsafeHumanoid_3": "True"
-}
+{ "FFlagFailsafeHumanoid_3": "True" }
 ```
 ### Automatically unmutes your mic on join
 ```json
-{
-	"FFlagDebugDefaultChannelStartMuted": "False"
-}
+{ "FFlagDebugDefaultChannelStartMuted": "False" }
 ```
 ### Overlay that shows what you type 
 ```json
-{
-	"FFlagDebugTextBoxServiceShowOverlay": "True"
-}
+{ "FFlagDebugTextBoxServiceShowOverlay": "True" }
 ```
-### ~~Disable Output Device~~
 ### opt-out Experience Language
 ###### Removes the Experience Language option in settings
 ```json
-{
-	"FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
-}
+{ "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0" }
 ```
 ### Exclusive Fullscreen
 ###### Alt + Delete
 ```json
-{
-	"FFlagHandleAltEnterFullscreenManually": "False"
-}
+{ "FFlagHandleAltEnterFullscreenManually": "False" }
 ```
 ### Lets you change the zoom out limit
 ###### infinite zoom out!!
 ```json
-{
-	"FIntCameraMaxZoomDistance": "9999"
-}
+{ "FIntCameraMaxZoomDistance": "9999" }
 ```
 ### Limits number of animations being played
 ```json
-{
-	"DFIntMaxActiveAnimationTracks": "0"
-}
+{ "DFIntMaxActiveAnimationTracks": "0" }
 ```
-### Limits Logs History
-```json
-{
-	"DFIntMaxLogHistory": "1"
-}
-```
-
 ### Prevents Remote Events from running
 ###### W SPECTRO
 ```json
-{
-	"DFIntRemoteEventSingleInvocationSizeLimit": "1"
-}
+{ "DFIntRemoteEventSingleInvocationSizeLimit": "1" }
 ```
 
 <h1 align="center">Links</h1>
