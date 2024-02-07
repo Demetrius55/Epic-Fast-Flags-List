@@ -62,7 +62,7 @@
 ```json
 { "FFlagDebugRenderingSetDeterministic": "True" }
 ```
-### Heads
+### 😍
 ```json
 { "FFlagDebugLuaHeapDump": "True" }
 ```
@@ -216,6 +216,11 @@ High
 { "FIntRenderShadowmapBias": "75" }
 ```
 <h1 align="center">User Interface</h1>
+
+### No Transparency V4 Menu **(2023)**
+```json
+{ "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID" }
+```
 
 ### Revert Old Report Menu
 ```json
@@ -376,10 +381,6 @@ High
 ```json
 { "DFIntMaxAltitudePDStickHipHeightPercent": "-200" }
 ```
-### Noclip <sup>literally</sup>
-```json
-{ "DFIntSHCellMinSizeAsBitShift": "4" }
-```
 ### Wallglide
 ```json
 { "DFFlagUnstickForceAttackInTenths": "-4" }
@@ -487,6 +488,7 @@ High
 { "DFFlagEnableDynamicHeadByDefault": "False" }
 ```
 ### failsafehumanoid
+###### gray avatars
 ```json
 { "FFlagFailsafeHumanoid_3": "True" }
 ```
