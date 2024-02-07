@@ -4,8 +4,8 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 5.0.1 [2/6/2024]
-* **104 Currently Listed**
+##### Version: 5.0.2 [2/7/2024]
+* **106 Currently Listed**
 * **5 Textures Currently Listed**
 * **New Formatting**
 
@@ -217,9 +217,9 @@ High
 ```
 <h1 align="center">User Interface</h1>
 
-### New Report Menu
+### Revert Old Report Menu
 ```json
-{ "FStringReportAbuseMenuRoactForcedUserIds": "UserID_HERE" }
+{ "FStringReportAbuseMenuRoactForcedUserIds": "UserID_HERE", "FFlagEnableReportAbuseMenuRoactABTest2": "False", "FFlagEnableReportAbuseMenuRoact2": "False", "FFlagEnableReportAbuseMenuLayerOnV3": "False" }
 ```
 
 ### Custom MicroProfile Scale
@@ -525,6 +525,10 @@ High
 ###### W SPECTRO
 ```json
 { "DFIntRemoteEventSingleInvocationSizeLimit": "1" }
+```
+### Clientsided Invisible
+```json
+{ "FIntParallelDynamicPartsFastClusterBatchSize": "1" }
 ```
 
 <h1 align="center">Links</h1>
