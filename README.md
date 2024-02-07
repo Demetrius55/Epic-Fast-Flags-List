@@ -4,18 +4,17 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 5.0.2 [2/7/2024]
-* **106 Currently Listed**
+##### Version: 5.0.4 [2/7/2024]
+* **104 Currently Listed**
 * **5 Textures Currently Listed**
 * **New Formatting**
+* **Removed [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Presets** <sup>Please use [Bloxstrap](https://github.com/pizzaboxer/bloxstrap)</sup>
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
 * **Fast Flags >> Fast Flags Editor >> Import Json**
 * **Paste in the JSON**
 * **Then you should be good to go and save!**
-
-###### Please just use [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) its way better
 
  # List Navigation
 * **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
@@ -47,11 +46,11 @@
 ```json
 { "FFlagDebugGraphicsDisableDirect3D11": "True", "FFlagDebugGraphicsPreferOpenGL": "True" }
 ```
-### DX10
+### Direct X 10
 ```json
 { "FFlagDebugGraphicsPreferD3D11FL10": "True" }
 ```
-### DX11
+### Direct X 11
 ```json
 { "FFlagDebugGraphicsPreferD3D11": "True" }
 ```
@@ -74,11 +73,6 @@
 ###### 4 for less quality 16, 32, 64 for higher quality
 ```json
 { "FIntTerrainArraySliceSize": "4" }
-```
-### Alternate Graphics Quality Selector
-###### 1-21 bloxstrap preset
-```json
-{ "FFlagFixGraphicsQuality": "True" }
 ```
 ### Disable Shadows
 ```json
@@ -508,11 +502,6 @@ High
 ### Disable New Chat Translation Settings
 ```json
 { "FFlagChatTranslationSettingEnabled3 ": "False" }
-```
-### Exclusive Fullscreen
-###### Alt + Delete
-```json
-{ "FFlagHandleAltEnterFullscreenManually": "False" }
 ```
 ### Lets you change the zoom out limit
 ###### infinite zoom out!!
