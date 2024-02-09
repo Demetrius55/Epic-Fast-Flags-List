@@ -1,14 +1,5 @@
 <h3 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="17"/> Textures</h3>
 
-### No Textures
-```json
-{
-    "FStringPartTexturePackTable2022": "{\"glass\":{\"ids\":[\"rbxassetid://9873284556\",\"rbxassetid://9438453972\"],\"color\":[254,254,254,7]}}",
-    "FStringPartTexturePackTablePre2022": "{\"glass\":{\"ids\":[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],\"color\":[254,254,254,7]}}",
-    "FStringTerrainMaterialTable2022": "",
-    "FStringTerrainMaterialTablePre2022": ""
-}
-```
 ### Goofy Wood Textures
 ```json
 {
