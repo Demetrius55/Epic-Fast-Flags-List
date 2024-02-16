@@ -7,9 +7,10 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### Version: 6.0.1 [2/10/2024]
-* **109 Currently Listed**
+##### Version: 6.0.2 [2/16/2024]
+* **101 Currently Listed**
 * **5 Textures Currently Listed**
+* **(not declared!)
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
@@ -315,22 +316,11 @@ High
 ```json
 { "FFlagSimDefaultPGSSolver": "False" }
 ```
-### No Animations
-###### gatekept ofc
-```json
-{ "": "" }
-```
 ### Stick unanchored parts to you
 ###### - = up, + = down
 ###### blame popbob he said it was ok to leak this
 ```json
 { "DFIntSolidFloorPercentForceApplication": "-1000", "DFIntNonSolidFloorPercentForceApplication": "-5000" }
-```
-### Custom Walkspeed on games that have default walkspeed <sup>every game!?</sup>
-###### gatekept ofc
-###### default value is 16 
-```json
-{ "": "VALUEHERE" }
 ```
 ### Breaks glitches stuff
 ###### All type of wallhops, longjumps, headhitters and probably more stop working
@@ -347,14 +337,6 @@ High
 ###### i thought this was patched thats why i removed it lol
 ```json
 { "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500" }
-```
-### Breaks movement on higher negative values
-```json
-{ "FIntPGSAngularDampingPermilPersecond": "-10000" }
-```
-### it does something to movement cant describe rn cus im busy
-```json
-{ "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
 ### It allows you to fall quicker and ignore certain block designs
 ```json
@@ -373,11 +355,6 @@ High
 ```json
 { "DFIntS2PhysicsSenderRate": "-30" }
 ```
-### Invisible 0,0,0
-###### gatekept ofc
-```json
-{ "": "" }
-```
 ### Clientsided Invisible
 ```json
 { "FIntParallelDynamicPartsFastClusterBatchSize": "1" }
@@ -386,24 +363,10 @@ High
 ```json
 { "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
-### Noclip 1
+### Noclip
 ###### adjust the value so u dont fall through the ground
 ```json
 { "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
-```
-### Noclip 2
-```json
-{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647" }
-```
-### Noclip Combo
-###### adjust the value so u dont fall through the ground
-```json
-{ "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
-```
-### Teleportation
-###### a.k.a control the unanchored
-```json
-{ "FIntPGSPenetrationMarginMax": "-100000000", "FIntPGSPenetrationMarginMin": "-100000000" }
 ```
 ### limited speed fflag that works only in a few games
 ###### one of them being Phantom Forces, and it makes you only slightly faster
