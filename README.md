@@ -8,7 +8,7 @@
 <h6 align="center">https://discord.gg/fastflags</h6>
 
 ##### Version: 6.0.2 [2/16/2024]
-* **101 Currently Listed**
+* **98 Currently Listed**
 * **5 Textures Currently Listed**
 * **(not declared!)**
 
