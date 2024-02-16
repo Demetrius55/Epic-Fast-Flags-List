@@ -10,7 +10,7 @@
 ##### Version: 6.0.2 [2/16/2024]
 * **101 Currently Listed**
 * **5 Textures Currently Listed**
-* **(not declared!)
+* **(not declared!)**
 
  # How to use
 * **Open the [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) Menu**
