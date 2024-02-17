@@ -37,7 +37,7 @@
 ```json
 { "FIntPGSInsideOfSpherePenetrationResolutionDamping": -1000000000 }
 ```
-### Fling your vehicle to the air
+### Vehicle Speed Hacks
 ![image](https://github.com/devstacking/Epic-Fast-Flags-List/assets/106433721/25f72a13-e7a7-4a5c-b8ca-5bda917e9115)
 ```json
 { "FIntPGSAlign2AxesCorrectionDamping": 10000 }
