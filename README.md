@@ -7,7 +7,7 @@
 
 <h6 align="center">https://discord.gg/fastflags</h6>
 
-##### [2/13/2024]
+##### [2/23/2024]
 * **101 Currently Listed**
 
 ## How to Use:
@@ -240,19 +240,15 @@ High
 ```
 ### Chrome UI TopBar
 ```json
-{ "FFlagEnableInGameMenuChrome": "True" }
-```
-### Better Chrome UI TopBar
-```json
-{ "FFlagChromeBetaFeature": "True", "FFlagEnableChromePinnedChat": "True", "FFlagEnableInGameMenuChrome": "True", "FFlagEnableInGameMenuChromeABTest": "True", "FFlagEnableInGameMenuChromeSignalAPI": "True", "FFlagPlayerListChromePushdown": "True", "FFlagEnableChromeEscapeFix": "True", "FFlagEnableChromeMicShimmer": "True", "FFlagPlayerListChromePushdown": "True" }
-```
-### Chrome UI Topbar Removal
-```json
-{ "FFlagChromeBetaFeature": "False", "FFlagEnableChromePinnedChat": "False", "FFlagEnableInGameMenuChrome": "False", "FFlagEnableInGameMenuChromeABTest2": "False", "FFlagEnableInGameMenuChromeSignalAPI": "False", "FFlagPlayerListChromePushdown": "False", "FFlagEnableReportAbuseMenuRoactABTest2": "False" }
+{ "FFlagEnableInGameMenuChrome": "True", "FFlagEnableReportAbuseMenuRoactABTest2": "True", "FFlagChromeBetaFeature": "True", "FFlagEnableReportAbuseMenuRoactABTest2": "True" }
 ```
 ### Pin Chat on Chrome UI
 ```json
 { "FFlagEnableChromePinnedChat": "True" }
+```
+### Chrome UI Topbar Removal
+```json
+{ "FFlagChromeBetaFeature": "False", "FFlagEnableChromePinnedChat": "False", "FFlagEnableInGameMenuChrome": "False", "FFlagEnableInGameMenuChromeABTest2": "False", "FFlagEnableInGameMenuChromeSignalAPI": "False", "FFlagPlayerListChromePushdown": "False", "FFlagEnableReportAbuseMenuRoactABTest2": "False" }
 ```
 ### Disable Bubble Chat
 ```json
@@ -312,15 +308,16 @@ High
 { "DFIntRaycastMaxDistance": "3" }
 ```
 ### Possible Super Jump
-###### i thought this was patched thats why i removed it lol
 ```json
 { "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500" }
 ```
-### Gear Desync/Change DataSender Rate
+<!--
+### Change DataSender Rate
 ###### a.k.a dos not let you load games
 ```json
 { "DFIntDataSenderRate": "-1" }
 ```
+ -->
 ### Fake Lag
 ```json
 { "DFIntS2PhysicsSenderRate": "1" }
@@ -362,7 +359,7 @@ High
 
 <h1 align="center">other fflags</h1>
 
-### Disable ADs
+### Disable Ingame Advertisements
 ```json
 { "FFlagAdServiceEnabled": "False" }
 ```
@@ -464,7 +461,7 @@ High
 ```json
 { "FFlagFailsafeHumanoid_3": "True" }
 ```
-### Automatically unmutes your mic on join
+### Automatically unmutes your mic on join (VC)
 ```json
 { "FFlagDebugDefaultChannelStartMuted": "False" }
 ```
@@ -482,7 +479,6 @@ High
 { "FFlagChatTranslationSettingEnabled3 ": "False" }
 ```
 ### Lets you change the zoom out limit
-###### infinite zoom out!!
 ```json
 { "FIntCameraMaxZoomDistance": "9999" }
 ```
