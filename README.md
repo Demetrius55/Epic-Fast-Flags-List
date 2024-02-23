@@ -8,7 +8,7 @@
 <h6 align="center">https://discord.gg/fastflags</h6>
 
 ##### [2/13/2024]
-* **102 Currently Listed**
+* **101 Currently Listed**
 
 ## How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
@@ -32,7 +32,7 @@
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
-### FPS Unlocker in Roblox Menu "Settings"
+### FPS Unlocker in Roblox Menu Settings
 ```json
 { "FFlagGameBasicSettingsFramerateCap": "True", "DFIntTaskSchedulerTargetFps": "0" }
 ```
@@ -79,20 +79,6 @@
 ### Disable Shadows
 ```json
 { "FIntRenderShadowIntensity": "0" }
-```
-### Enables Network Debug Tracker menu
-##### Instructions: CTRL+F8
-```json
-{ "DFFlagDebugEnableInterpolationVisualizer": "True" }
-```
-### Humanoid Outline
-##### Draws an outline around every part and every humanoid
-```json
-{ "DFFlagDebugDrawBroadPhaseAABBs": "True" }
-```
-### Buggy ZPlane Camera *<sup>a.k.a xray</sup>*
-```json
-{ "FIntCameraFarZPlane": "1" }
 ```
 ### Preserve rendering quality with display setting
 ```json
@@ -156,6 +142,7 @@ High
 { "DFFlagDebugPauseVoxelizer": "True" }
 ```
 ### Gray Sky
+###### Only works with games with default sky
 ```json
 { "FFlagDebugSkyGray": "True" }
 ```
@@ -204,6 +191,20 @@ High
 ###### ***[Future & ShadowMap]***
 ```json
 { "FIntRenderShadowmapBias": "75" }
+```
+### Enables Network Debug Tracker menu
+##### Instructions: CTRL+F8
+```json
+{ "DFFlagDebugEnableInterpolationVisualizer": "True" }
+```
+### Humanoid Outline
+##### Draws an outline around every part and every humanoid
+```json
+{ "DFFlagDebugDrawBroadPhaseAABBs": "True" }
+```
+### Buggy ZPlane Camera *<sup>a.k.a xray</sup>*
+```json
+{ "FIntCameraFarZPlane": "1" }
 ```
 <h1 align="center">User Interface</h1>
 
@@ -328,7 +329,8 @@ High
 ```json
 { "DFIntS2PhysicsSenderRate": "-30" }
 ```
-### Invisible 0,0,0
+### Invisible 
+###### Sets your position to 0,0,0 for the server
 ```json
 { "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10" }
 ```
@@ -348,11 +350,6 @@ High
 ```json
 { "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
-### limited speed fflag that works only in a few games
-###### one of them being Phantom Forces, and it makes you only slightly faster
-```json
-{ "DFIntDebugSimPhysicsSteppingMethodOverride": "10000000" }
-```
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```json
@@ -371,7 +368,6 @@ High
 ```
 
 ### Disable Telemetry 
-###### *[This doesn't fully disable telemetry]*
 ```json
 { "FFlagDebugDisableTelemetryEphemeralCounter": "True", "FFlagDebugDisableTelemetryEphemeralStat": "True", "FFlagDebugDisableTelemetryEventIngest": "True", "FFlagDebugDisableTelemetryPoint": "True", "FFlagDebugDisableTelemetryV2Counter": "True", "FFlagDebugDisableTelemetryV2Event": "True", "FFlagDebugDisableTelemetryV2Stat": "True" }
 ```
@@ -397,7 +393,6 @@ High
 { "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName" }
 ```
 ### MTU 
-###### ***[Might Improve Ping]***
 ```json
 { "DFIntConnectionMTUSize": "MTU_HERE" }
 ```
