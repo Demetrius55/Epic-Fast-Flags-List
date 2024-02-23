@@ -63,6 +63,10 @@
 
 <h1 align="center">Graphical Settings <sup>& other stuff</sup></h1>
 
+### Circles ESP
+```json
+{ "FFlagDebugAvatarChatVisualization": "True", "FFlagEnableInGameMenuChromeABTest2": "True" }
+```
 ### Smoother Terrain
 ```json
 { "FFlagDebugRenderingSetDeterministic": "True" }
