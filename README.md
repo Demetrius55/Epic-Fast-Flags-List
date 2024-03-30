@@ -20,11 +20,13 @@ PGS FASTFLAGS ARE ***PATCHED*** IN LASTEST PRODUCTION BUILDS USE THIS ***[BUILD]
 ```json
 { "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647" }
 ```
+<!--
 ### Noclip Combo
 ###### adjust the value so u dont fall through the ground
 ```json
 { "FIntPGSPenetrationMarginMax": "2147483647", "FIntPGSPenetrationMarginMin": "2147483647", "DFFlagAssemblyExtentsExpansionStudHundredth": "-50" }
 ```
+ -->
 ### Teleportation
 ###### a.k.a control the unanchored
 ```json
