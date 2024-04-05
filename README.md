@@ -1,6 +1,6 @@
 <h3 align="center">PGS [2/16/2024]</h>
 
-PGS FASTFLAGS ARE ***PATCHED*** IN LASTEST PRODUCTION BUILDS USE THIS ***[BUILD](https://rdd.latte.to/?channel=zintegration&binaryType=WindowsPlayer&version=version-5677dce459f946cd)***
+PGS FASTFLAGS ARE ***PATCHED*** IN LASTEST PRODUCTION BUILDS USE THIS ***[BUILD](https://rdd.latte.to/?channel=zintegration&binaryType=WindowsPlayer&version=version-5677dce459f946cd)*** [0.612.100.6120277]
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
