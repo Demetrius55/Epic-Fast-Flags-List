@@ -1,8 +1,14 @@
-<h3 align="center">PGS [2/16/2024]</h>
+<h3 align="center">PGS [2/16/2024]</h3>
+
+<h4 align="center">
+
+https://discord.gg/YreqZ7aYmg
 
 PGS FASTFLAGS ARE ***PATCHED*** IN LASTEST PRODUCTION BUILDS USE THIS ***[BUILD](https://rdd.latte.to/?channel=zintegration&binaryType=WindowsPlayer&version=version-5677dce459f946cd)*** 
 
 [0.612.100.6120277]
+
+</h4>
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
